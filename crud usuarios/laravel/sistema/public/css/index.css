@@ -1,0 +1,86 @@
+.fondo {
+    background: url('/img/index.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh; /* asegura cubrir al menos la pantalla */
+}
+
+
+
+/* Mejorar encabezado de la tabla */
+.table thead th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Botones con un pequeño efecto de sombra */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Tabla responsiva en dispositivos pequeños */
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.85rem;
+    }
+
+    .btn-sm {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+}
+.fondo_blanco {
+    background-color: rgba(255, 255, 255, 0.85); /* blanco con transparencia */
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* Titulo Lista de empleados */
+h3.fw-bold.text-primary {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+}
+
+
+.contenedor-superior {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulo-empleados {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.boton-registrar {
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: absolute;
+    top: 120%;
+    right: 15%;
+}
+.container {
+    background-color: transparent !important;
+}
+
+
+
